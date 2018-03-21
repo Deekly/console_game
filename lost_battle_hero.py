@@ -103,9 +103,9 @@ score = 0
 print("\n\t\t\t Are you ready?!!")
 print("""
 
-            You're surrounded by enemies, many of which are already 
+            You're surrounded by the enemies, many of them are already 
                           lying dead under your feet. 
-        There are very few trolls left, but the strength is running out.
+        There are few trolls left, but the strength is running out.
                   Collect 10 dice rolls 40 and over to win.
 
 """)
@@ -119,7 +119,7 @@ input("\n\n\n\t\tPress ENTER to START")
 os.system('cls')
 
 
-while cvar < 9:
+while cvar <= 9:
     if rand == 1:
         print(hello)
         print(cube1)
