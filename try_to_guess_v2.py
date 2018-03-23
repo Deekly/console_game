@@ -22,7 +22,7 @@ print ("Lets start =)")
 
 count = 1
 digit = 0
-print ("Enter Sandman:")
+print ("Enter Sandman:")    
 while digit != rand:
     digit = int(input())
     if digit > rand:
